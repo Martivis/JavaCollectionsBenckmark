@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class ArrayListAdd implements Command {
     private ArrayList list;
 
-    public ArrayListAdd(ArrayList list) {
-        this.list = list;
+    public ArrayListAdd() {
+        this.list = new ArrayList();
     }
 
     @Override

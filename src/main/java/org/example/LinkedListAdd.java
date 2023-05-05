@@ -5,8 +5,8 @@ import java.util.LinkedList;
 public class LinkedListAdd implements Command {
     private LinkedList list;
 
-    public LinkedListAdd(LinkedList list) {
-        this.list = list;
+    public LinkedListAdd() {
+        this.list = new LinkedList();
     }
 
     @Override
