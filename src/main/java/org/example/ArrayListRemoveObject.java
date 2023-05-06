@@ -7,7 +7,7 @@ public class ArrayListRemoveObject implements Command {
 
     public ArrayListRemoveObject() {
         list = new ArrayList();
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 15000; i++) {
             list.add(new Object());
         }
     }

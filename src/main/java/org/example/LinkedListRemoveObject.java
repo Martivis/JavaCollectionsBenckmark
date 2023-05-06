@@ -7,7 +7,7 @@ public class LinkedListRemoveObject implements Command {
 
     public LinkedListRemoveObject() {
         list = new LinkedList();
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 15000; i++) {
             list.add(new Object());
         }
     }
